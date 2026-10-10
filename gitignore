@@ -1,0 +1,53 @@
+# ---------------------------------------------
+# Envarta Surgical website (static HTML/CSS/JS)
+# ---------------------------------------------
+
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor / IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies and build output (in case tooling is added later)
+node_modules/
+dist/
+build/
+.cache/
+
+# Environment files and secrets (never commit these)
+.env
+.env.*
+*.pem
+*.key
+
+# Backups, temp files and downloaded packages
+*.bak
+*.tmp
+*.swp
+*~
+*.zip
+*.rar
+*.7z
+
+# Raw / unoptimised image sources (keep only the final web images in /images)
+*.psd
+*.ai
+*.xcf
+originals/
+raw/
+
+# Local screenshots
+Screenshot*.png
+WhatsApp Image*
